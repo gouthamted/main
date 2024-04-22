@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "me-central-1"
+}
 resource "aws_s3_bucket" "example" {
   bucket = "my-tf-test-bucket"
 
